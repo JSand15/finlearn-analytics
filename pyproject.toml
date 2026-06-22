@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finlearn-analytics"
+version = "0.1.0"
+description = "Financial analytics and behavioral finance research tools for Python"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Jeevun Sandhu"}]
+requires-python = ">=3.8"
+keywords = ["finance", "analytics", "sharpe ratio", "behavioral finance", "investment"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+# finlearn is intentionally dependency-free: every function is pure-Python and
+# operates on built-in list/tuple inputs. Do not add runtime deps that the code
+# does not actually import.
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "build>=1.0",
+    "twine>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/JSand15/finlearn-analytics"
+Repository = "https://github.com/JSand15/finlearn-analytics"
+Issues = "https://github.com/JSand15/finlearn-analytics/issues"
+Changelog = "https://github.com/JSand15/finlearn-analytics/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["finlearn"]
+
+[tool.setuptools.package-data]
+finlearn = ["py.typed"]
