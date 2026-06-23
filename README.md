@@ -4,7 +4,7 @@
 
 [![PyPI version](https://badge.fury.io/py/finlearn-analytics.svg)](https://pypi.org/project/finlearn-analytics/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 
 ---
 
