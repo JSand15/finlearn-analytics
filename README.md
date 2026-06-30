@@ -1,8 +1,10 @@
 # finlearn-analytics
 
-**Financial analytics and behavioral finance research tools for Python.**
+**Detect 69 behavioral-finance biases in investment memos — plus Sharpe ratio, max drawdown, and benchmark analytics. Pure Python, zero dependencies.**
 
 [![PyPI version](https://badge.fury.io/py/finlearn-analytics.svg)](https://pypi.org/project/finlearn-analytics/)
+[![CI](https://github.com/JSand15/finlearn-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/JSand15/finlearn-analytics/actions/workflows/ci.yml)
+[![Downloads](https://static.pepy.tech/badge/finlearn-analytics)](https://pepy.tech/project/finlearn-analytics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 
